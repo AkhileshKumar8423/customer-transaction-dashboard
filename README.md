@@ -33,7 +33,13 @@ The dashboard includes the following DAX measures:
 
 ## 📊 Dashboard Preview
 
-![Customer Transaction Dashboard](images/dashboard.jpg)
+### Customer Transaction Dashboard
+
+![Customer Transaction Dashboard](images/Customer%20Transaction%20Dashboard.JPG)
+
+### Customer Analysis
+
+![Customer Analysis](images/Customer%20Analysis.JPG)
 
 ## 🧮 DAX
 
