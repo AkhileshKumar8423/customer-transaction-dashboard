@@ -1,0 +1,26 @@
+CUSTOMER TRANSACTION DASHBOARD
+DAX MEASURES
+==============================
+
+1. Total Customers
+   = DISTINCTCOUNT(customer_data[CustomerID])
+
+
+2. Total Locations
+   = DISTINCTCOUNT(customer_data[Location])
+
+
+3. Total Orders
+   = DISTINCTCOUNT(customer_data[OrderID])
+
+
+4. Total Products
+   = DISTINCTCOUNT(customer_data[ProductInformation])
+
+
+5. Total Transaction Amount
+   = SUM(customer_data[TransactionAmount])
+
+
+6. Average Order value
+   = DIVIDE([Total Transaction Amount], [Total Orders])
